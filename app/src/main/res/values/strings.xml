@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PromtPay QR Generator</string>
+    <string name="scan">Scan</string>
+    <string name="generator">Generator</string>
+</resources>
