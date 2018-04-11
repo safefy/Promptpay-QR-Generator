@@ -17,7 +17,7 @@ import com.karumi.dexter.listener.PermissionGrantedResponse
 import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.single.PermissionListener
 import kotlinx.android.synthetic.main.activity_input.*
-import th.co.convinapp.promtpayqrgenerator.R
+import th.co.convinapp.promptpayqrgenerator.R
 
 class InputActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -57,7 +57,7 @@ class InputActivity : AppCompatActivity(), View.OnClickListener {
             return
         }
         if (btn_generate == v) {
-            Toast.makeText(this, "s", Toast.LENGTH_LONG).show()
+            performQRGenerate()
             return
         }
     }
