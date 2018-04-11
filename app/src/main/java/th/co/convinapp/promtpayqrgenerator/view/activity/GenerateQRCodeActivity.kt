@@ -7,7 +7,7 @@ package th.co.convinapp.promtpayqrgenerator.view.activity
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import th.co.convinapp.promptpayqrgenerator.R
+import th.co.convinapp.promtpayqrgenerator.R
 
 class GenerateQRCodeActivity : AppCompatActivity() {
 
